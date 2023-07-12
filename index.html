@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Projeto - Dev em Dobro</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link
+   href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+   rel="stylesheet"
+ />
+
+ <link rel="stylesheet" href="./src/css/reset.css">
+ <link rel="stylesheet" href="./src/css/estilos.css">
+ <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+
+ <header class="cabecalho">
+  <img class="logo" src="./src/assets/logo.png" alt="Logo Cavaleiros dos Zodiaco Sant Seiya">  
+ </header>
+
+ <main class="selecao-de-personagens">
+
+  <section class="personagens">
+    <h1 class="titulo">Selecione um Personagem</h1>
+    <ul class="lista-de-personagens">
+      <li class="personagem selecionado" id="atena" data-name="Atena" data-description="Saori Kiddo, reencarnação da deusa Atena na era de Seiya de Pegasos, nascida no Santuario, salva por Aiolos de Sagitário, quando bebe das mãos de Saga de Gemeos, e entregue nas mãos de Matsumasa Kiddo, antes de Aiolos morrer, tendo como missão manter a Saori a salvo e treinar grandes guerreiros para a guerra que estava para começar. Teve sua alma despetada 13 anos depois quando o Mestre do Santuario se voltou contra ela e seus guerreiros.">
+        <img src="src/assets/00-Atena-min.png" alt="Personagem Atena">
+      </li>
+  
+      <li class="personagem" id="seiya-pegasus" data-name="Cavaleiro de Bronze Seiya de Pegasus" data-description="Seiya foi trazido do orfanato pelo senhor Matsumasa Kiddo para se tornar um dos cavaleiros de Atena, foi escolhido para ir treinar na Grecia e trazer a armadura de Pegasus. Após 5 anos retornou com a armadura e com a sede para pedir ao senhor Kiddo que encontrasse a sua irmã. É um dos cavaleiros mais fortes.">
+        <img src="src/assets/00-Seiya-Pegasus-min.png" alt="Personagem Cavaleiro de Bronze Seiya de Pegasus">
+      </li>
+  
+      <li class="personagem" id="shiriu-dragao" data-name="Cavaleiro de Bronze Shiryu de Dragão" data-description="Escolhido para treinar nos 5 picos antigos de rosan no Japão. Treinou com o mestre ancião (Cavaleiro de Ouro de Libra-Dohko). Aprendendo o ataque da colera do dragão e o mais poderoso colera dos 1000 dragões.">
+        <img src="src/assets/00-Shiriu-Dragao-min.png" alt="Personagem Cavaleiro de Bronze Shiryu de Dragão">
+      </li>
+  
+      <li class="personagem" id="cisnei" data-name="Cavaleiro de Bronze Hyoga de Cisnei" data-description="Hyoga foi escolhido para treinar na Sibéria onde sua mãe faleceu. Treinou com cavaleiro de Cristão e com Camus de Aquario(mangá).">
+        <img src="src/assets/00-Cisnei-min.png" alt="Personagem Cavaleiro de Bronze Hyoga de Cisnei">
+      </li>
+  
+      <li class="personagem" id="shun-andromeda" data-name="Cavaleiro de Bronze Shun de Andromeda" data-description="Shun trocou de lugar com seu irmão Ikki e foi treinar na ilha de Andromeda, para pegar a armadura de andromeda. Não gosta de lutar, mas é um dos cavaleiros mais fortes e poderosos de Atena.">
+        <img src="src/assets/00-Shun-Andromeda-min.png" alt="Personagem Cavaleiro de Shun de Andromeda">
+      </li>
+  
+      <li class="personagem" id="ikki-fenix" data-name="Cavaleiro de Bronze Ikki de Fenix" data-description="Ikki trocou de lugar com seu irmão e por isso foi para ilha da rainha da morte. Um inferno na terra. Sofreu muito e se tornou maligno, desafiando os cavaleiros de Atena no inicio. Depois se tornou um grande aliado de Seiya.E sua armadura é a unida das 88 armaduras a ser imortal e indestrutivel.">
+        <img src="src/assets/00-Ikki-Fenix-min.png" alt="Personagem Cavaleiro de Bronze Ikki de Fenix">
+      </li>
+  
+      <li class="personagem" id="mu-aries" data-name="Cavaleiro de Ouro Mu de Aries" data-description="Cavaleiro de Ouro que protege a Casa de Áries. Hábil na restauração de armaduras, é ele quem conserta as Armaduras de Bronze de Seiya e dos outros antes da batalha das Doze Casas do Zodíaco. Como desde cedo desconfiava do Grande Mestre, deu as costas ao Santuário. Porém, desejando a purificação do local, manteve suas obrigações como Cavaleiro para dedicar-se à restauração das armaduras em Jamiel, mas seu poder não enfraqueceu, o que pôde ser constatado durante a batalha contra os Espectros. ">
+        <img src="src/assets/01-Mu-Aries-min.png" alt="Personagem Cavaleiro de Ouro Mu de Aries">
+      </li>
+  
+      <li class="personagem" id="shion-aries" data-name="Cavaleiro de Ouro Shion de Aries" data-description="Shion sendo o verdadeiro mestre do santuário, destinado por Atena na última guerra santa, foi assissinado por Saga, para que este pudesse assumir como Mestre. É o antigo mestre de Mú, e antecessor da Armadura de Aries. Sendo um dos dois únicos sobreviventes da última guerra santa, junto com o cavaleiro de Libra (Dokko-Mestre Ancião)">
+        <img src="src/assets/01-Shion-Aries-min.png" alt="Personagem Cavaleiro de Ouro Shion de Aries">
+      </li>
+  
+      <li class="personagem" id="aldebaram-touro" data-name="Cavaleiro de Ouro Aldebaran de Touro" data-description="Aldebaran de Touro é um Cavaleiro de Ouro do século XX. Primeiro oponente dos Cavaleiros de Bronze, dentro das 12 Casas do Zodíaco. ">
+        <img src="src/assets/02-Aldebaram-Touro-min.png" alt="Personagem Cavaleiro de Ouro Aldebaran de Touro">
+      </li>
+  
+      <li class="personagem" id="saga-gemeos" data-name="Cavaleiro de Ouro Saga de Gêmeos" data-description="Saga de Gêmeos (のサガ, Jemini no Saga?) é o irmão gêmeo mais velho de Kanon, pedestinado a se tonar o Cavaleiro de Ouro de Gêmeos do século XX, que antigamente era tido como o próximo sucessor do Grande Mestre, tendo todas as características necessárias para o posto – humanidade, habilidade e força física. Dado como desaparecido há treze anos, no mangá, ele esteve escondido por todo esse tempo sob a máscara do Grande Mestre, depois de assassiná-lo e tomar seu posto como governante do Santuário. No anime, ele toma o lugar do irmão do Grande Mestre, Ares. Seu plano era matar Atena e dominar o mundo. Na verdade, Saga tinha dupla personalidade, oscilando entre extremos do bem e do mal. Dentro dele, esses opostos estavam sempre lutando entre si. Depois de ter seu coração purificado, ele mesmo tira sua própria vida. ">
+        <img src="src/assets/03-Saga-Gemeos-min.png" alt="Personagem Cavaleiro de Ouro Saga de Gêmeos">
+      </li>
+  
+      <li class="personagem" id="kanon-gemeos" data-name="Cavaleiro de Ouro Kanon de Gêmeos" data-description="Irmão gêmeo de Saga, abandonado e aprisionado pelo próprio Saga, na prisão do mar e levado ao Templo de Poseidon, se tornou um de seus Cavaleiros, e posteriormente foi transformado pelo amor de Atena, e veio a substituir o Irmão como portador da Armadura de Gêmeos na saga de Ares. É muito poderoso, tanto quanto o irmão, capaz de usar todas as tecnicas de seu irmão também.">
+        <img src="src/assets/03-Kanon-gemeos-min.png" alt="Personagem Cavaleiro de Ouro Kanon de Gêmeos">
+      </li>
+  
+      <li class="personagem" id="mascara-da-morte-cancer" data-name="Cavaleiro de Ouro Mascará da Morte de Câncer" data-description="Homem que se diverte com batalhas e massacres. Cavaleiro de Ouro do signo de câncer. Natural da Itália. Manipula o buraco que liga ao submundo. Tem como valor (a definição da justiça muda com o passar do tempo) e já ajudou o Saga que se converteu ao mal. Talvez o seu modo de viver possa ser descrito como humano dentre os Cavaleiros de Ouro. Desfere o golpe mortal (Ondas dos Infernos) que envia para o submundo a alma dos oponentes.">
+        <img src="src/assets/04-Mascara-da-morte-Cancer-min.png" alt="Personagem Cavaleiro de Ouro Mascará da Morte de Câncer">
+      </li>
+  
+      <li class="personagem" id="leao" data-name="Cavaleiro de Ouro de Leão" data-description="Aiolia de Leão (獅子座のアイオリア, Reo no Aioria) é umCavaleiro de Ouro do Século XX, irmão do cavaleiro de Sagitário da mesma época (Aioros), na série Os Cavaleiros do Zodíaco, de Masami Kurumada. É o Cavaleiro de Ouro que protege a Casa de Leão. Aiolia é o protagonista do mangá Episódio G(Spin-off)que narra a guerra contra os titãs e com os gigas. ">
+        <img src="src/assets/05-Leao-min.png" alt="Personagem Cavaleiro de Ouro Aiolia de Leão">
+      </li>
+  
+      <li class="personagem" id="shaka-virgem" data-name="Cavaleiro de Ouro Shaka de Virgem" data-description="Cavaleiro de Ouro que protege a Casa de Virgem no Santuário. Considerado como a reencarnação de Buda, possui um poder de observação que permite conhecer a verdade escondida sob as aparências. O poder de ir e vir no tempo e espaço impressiona até outros Cavaleiros de Ouro. Tem uma morte heroica sob a destrutiva Exclamação de Atena, criada por Saga, Shura e Camus, mas ele submeteu-se a esse golpe para poder acompanhar Atena até o Mundos dos Mortos, depois que ela fincou o punhal em si mesma.">
+        <img src="src/assets/06-Shaka-Virgem-min.png" alt="Personagem Cavaleiro de Ouro Shaka de Virgem">
+      </li>
+  
+      <li class="personagem" id="dohko-libra" data-name="Cavaleiro de Ouro Dohko de Libra" data-description="Dohko de Libra, também conhecido como Mestre Ancião, Um dos únicos dois sobreviventes da última Guerra Santa, é chamado respeitosamente por todos de Velho Mestre. Originalmente é um Cavaleiro que luta com seus próprios punhos mas a armadura de libra é adaptada com equipamentos de espada e de lança. Essas armas tem poder suficiente para destruir estrelas e precisa de autorização de Atena para serem utilizadas. Tem força o bastante em seus punhos, incluindo o golpe mortal Cólera dos Cem Dragões.">
+        <img src="src/assets/07-Dohko-Libra-min.png" alt="Personagem Cavaleiro de Ouro Dohko de Libra">
+      </li>
+  
+      <li class="personagem" id="milo-escorpiao" data-name="Cavaleiro de Ouro Milo de Escorpião" data-description="Cavaleiro de Ouro do signo de escorpião. Natural da Grécia. Como o Aiolia, é espontâneo e tem forte espírito de justiça. Tem muito orgulho por ser um Cavaleiro de Ouro. A técnica mortal (Agulha Escarlate) usa as pontas dos dedos para espetar violentamente quinze pontos do oponente, paralisando os seus cinco sentidos. Era muito amigo de Camus de Aquário.">
+        <img src="src/assets/08-Milo-Escorpiao-min.png" alt="Personagem Cavaleiro de Ouro Milo de Escorpião">
+      </li>
+  
+      <li class="personagem" id="sagitario" data-name="Cavaleiro de Ouro Aiolos de Sagitário" data-description="Cavaleiro de Ouro do signo de sagitário. Natural da Grécia. É o irmão mais velho de Aiolia e foi considerado traidor pela morte de Atena. Mas na verdade é um cavaleiro exemplar que dedicou sua vida na grande missão de proteger Atena mesmo desprezado pelos que o rodeavam. Tido como candidato ao próximo Papa, tem grande caráter e espírito de luta e disposto a sacrificar sua própria vida se for por uma causa justa. Finalmente, reencontra com seu irmão mais novo Aiolia no Muro das Lamentações.">
+        <img src="src/assets/09-Sagitario-min.png" alt="Personagem Cavaleiro de Ouro Aiolos de Sagitário">
+      </li>
+  
+      <li class="personagem" id="shura-capricorneo" data-name="Cavaleiro de Ouro Shura de Capricórnio" data-description="É o Cavaleiro de Ouro que protege a Casa de Capricórnio. Shura se considera o cavaleiro mais fiel a Athena, porém sua excessiva lealdade ao Santuário acabou levando-o a cometer uma série de equívocos. Seu golpe principal é Excalibur, no qual concentra seu cosmo numa rajada cortante de energia, como uma espada. Este golpe tem uma intensidade concentrada fortíssima, e sai na velocidade da luz. ">
+        <img src="src/assets/10-Shura-Capricorneo-min.png" alt="Personagem Cavaleiro de Ouro Shura de Capricórnio">
+      </li>
+  
+      <li class="personagem" id="camus-aquario" data-name="Cavaleiro de Ouro Camus de Aquário" data-description="Cavaleiro de Ouro que protege a Casa de Aquário no Santuário. No mangá, Treinou o pequeno Hyoga durante seis anos nas geladas terras do leste da Sibéria. foi obrigado a lutar contra Hyoga no Santuário. No anime, Camus treinou o Cavaleiro de Cristal, que por sua vez foi o mestre de Hyoga.">
+        <img src="src/assets/11-Camus-Aquario-min.png" alt="Personagem Cavaleiro de Ouro Camus de Aquário">
+      </li>
+  
+      <li class="personagem" id="afrodite-peixes" data-name="Cavaleiro de Ouro Afrodite de Peixes" data-description="O protetor da última casa do zodíaco, usa variações de golpes com rosas, como o (Rosas Diabólicas Reais). Sua ideia é de que só um poder supremo absoluto pode colocar paz e ordem no mundo, mesmo que esse poder seja do mal. Por isso, mesmo tendo consciência de que o Grande Mestre servia ao mal, acabou obedecendo suas ordens e matandoDaidalos, mestre de Shun. Sua atitude pode não ser o mais exemplar para um Cavaleiro, mas o seu propósito de manter a paz na Terra é igual ao de qualquer cavaleiro. ">
+        <img src="src/assets/12-Afrodite-Peixes-min.png" alt="Personagem Cavaleiro de Ouro Afrodite de Peixes">
+      </li>  
+    </ul>
+  </section>
+
+  <section class="personagem-selecionado">
+    <img class="personagem-grande" src="src/assets/Atena.png" alt="Atena">
+
+    <div class="informacoes-personagem">
+      <h2 class="nome-personagem" id="nome-personagem">Atena</h2>
+      <p class="descricao-personagem" id="descricao-personagem">
+        Saori Kido, reencarnação da deusa Atena na era de Seiya de Pegasos, nascida no Santuario, salva por Aiolos de Sagitário, quando bebe das mãos de Saga de Gemeos, e entregue nas mãos de Matsumada Kido, antes de Aiolos morrer, tendo como missão manter a Saori a salvo e treinar grandes guerreiros para a guerra que estava para começar. Teve sua alma despetada 13 anos depois quando o Mestre do Santuario se voltou contra ela e seus guerreiros.
+      </p>
+    </div>
+  </section>
+
+ </main>
+
+ <script src="./src/js/index.js"></script>
+</body>
+</html>
