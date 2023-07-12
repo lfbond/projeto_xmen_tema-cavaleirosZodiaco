@@ -24,7 +24,7 @@ const personagens = document.querySelectorAll('.personagem');
  personagens.forEach((personagem) => {
  personagem.addEventListener('mouseenter', () => {
 
-     if(window.innerWidth < 450) {
+     if(window.innerWidth < 700) {
          window.scrollTo({top: 0, behavior: 'smooth'});
      }
 
@@ -60,7 +60,7 @@ function alterarImagemPersonagemSelecionado(personagem) {
  const imagemPersonagemGrande = document.querySelector('.personagem-grande');
  // passo 2 - alterar a imagem do personagem grande
  const idPersonagem = personagem.attributes.id.value;
- imagemPersonagemGrande.src =`./src/assets/${idPersonagem}.png`;
+ imagemPersonagemGrande.src = `./src/assets/${idPersonagem}.png`;
 }
 
 function removerSelecaoDoPersonagem() {
