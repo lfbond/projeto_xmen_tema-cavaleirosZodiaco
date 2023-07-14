@@ -1,6 +1,7 @@
 @media (max-width: 1120px){
  .cabecalho .logo{
      max-width: 190px;
+     margin-block-end: 80px;
  }
 
  .selecao-de-personagens{
