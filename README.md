@@ -1,16 +1,17 @@
-# X-Men Clone - Dev em Dobro
+# X-Men com Tema dos Cavaleiros do Zodíaco
 
-Bem-vindo ao **X-Men Clone**, um projeto inspirado no desafio proposto pelo canal [Dev em Dobro](https://www.youtube.com/@devemdobro). Este projeto recria uma interface interativa que imita o famoso menu da série animada dos X-Men dos anos 90, com animações e efeitos visuais impressionantes.
+Bem-vindo ao projeto **X-Men com Tema dos Cavaleiros do Zodíaco**! Este projeto é uma recriação visual que mistura dois universos icônicos da cultura pop: **X-Men** e **Os Cavaleiros do Zodíaco**. O objetivo é recriar uma interface inspirada no menu dos X-Men dos anos 90, mas com o estilo e tema dos Cavaleiros do Zodíaco.
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é aplicar conceitos de HTML, CSS e JavaScript para recriar a experiência visual do menu original dos X-Men. A ideia é consolidar o aprendizado em web design e animações utilizando apenas tecnologias front-end.
+O projeto busca combinar duas franquias de sucesso, proporcionando uma experiência visual nostálgica com um toque de criatividade. Ele também serve como um exercício prático de desenvolvimento front-end, utilizando tecnologias web modernas para recriar a interface e efeitos interativos.
 
 ## 🚀 Funcionalidades
 
-- **Animação Interativa**: Quando o usuário passa o mouse sobre cada membro dos X-Men, surgem efeitos visuais e de transição suaves.
-- **Design Fiel ao Original**: A interface imita fielmente o visual da série animada dos anos 90, com cores vibrantes e uma estética retrô.
-- **Responsividade**: O site se adapta a diferentes tamanhos de tela, garantindo que a experiência seja boa tanto em dispositivos móveis quanto em desktops.
+- **Estilo Cavaleiros do Zodíaco**: O visual e as animações dos personagens X-Men são recriados com a estética dos Cavaleiros do Zodíaco.
+- **Efeitos de Hover**: Quando o usuário passa o mouse sobre os personagens, aparecem animações e transições inspiradas nas armaduras e poderes dos Cavaleiros do Zodíaco.
+- **Design Responsivo**: A interface é totalmente responsiva, garantindo uma experiência consistente em dispositivos móveis e desktops.
+- **Animações CSS**: Uso de transições suaves e efeitos visuais para imitar o estilo de luta e poder dos Cavaleiros.
 
 ## Imagem do Site:
 
@@ -18,39 +19,40 @@ O objetivo deste projeto é aplicar conceitos de HTML, CSS e JavaScript para rec
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilização avançada, animações e efeitos visuais.
-- **JavaScript**: Interatividade e manipulação de eventos para criar animações dinâmicas.
-- **GitHub Pages**: Hospedagem do site.
+- **HTML5**: Estruturação da página.
+- **CSS3**: Estilização avançada, efeitos visuais e animações.
+- **JavaScript**: Para manipulação de eventos e interatividade.
+- **GitHub Pages**: Hospedagem do projeto.
 
 ## 📦 Como Executar o Projeto
 
 1. Clone este repositório em sua máquina local:
     ```bash
-    git clone https://github.com/lfbond/projeto_xmen_clone_devEmDobro.git
+    git clone https://github.com/lfbond/projeto_xmen_tema-cavaleirosZodiaco.git
     ```
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd projeto_xmen_clone_devEmDobro
+    cd projeto_xmen_tema-cavaleirosZodiaco
     ```
 
 3. Abra o arquivo `index.html` no seu navegador:
     ```bash
     open index.html
     ```
-    Ou simplesmente visite o site hospedado no GitHub Pages: [X-Men Clone](https://lfbond.github.io/projeto_xmen_clone_devEmDobro/).
+    Ou visite o site hospedado diretamente no GitHub Pages: [X-Men com Tema dos Cavaleiros do Zodíaco](https://lfbond.github.io/projeto_xmen_tema-cavaleirosZodiaco/).
 
 ## 🎨 Melhorias Futuras
 
-- **Áudio Interativo**: Implementação de sons e trilhas da série animada para uma experiência ainda mais imersiva.
-- **Mais Personagens**: Adição de novos membros dos X-Men e outros vilões icônicos.
-- **Funcionalidades Dinâmicas**: Introduzir animações ao clicar nos personagens, levando o usuário a páginas com mais informações sobre cada um.
+- **Efeitos de Som**: Adicionar efeitos sonoros inspirados nos Cavaleiros do Zodíaco durante as interações de hover e clique.
+- **Mais Personagens**: Incluir mais personagens dos X-Men e Cavaleiros do Zodíaco, expandindo a lista de heróis e vilões.
+- **Transições entre Temas**: Implementar um botão que permita ao usuário alternar entre o tema dos X-Men e dos Cavaleiros do Zodíaco.
 
 ## 💡 Contribuições
 
-Contribuições são bem-vindas! Caso tenha sugestões, encontre algum bug ou queira colaborar com novas funcionalidades, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
+Contribuições são bem-vindas! Se você tem sugestões, encontrou algum bug ou deseja colaborar com novas funcionalidades, abra uma _issue_ ou envie um _pull request_.
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
+Este projeto está licenciado sob a MIT License. Para mais detalhes, consulte o arquivo `LICENSE`.
+
