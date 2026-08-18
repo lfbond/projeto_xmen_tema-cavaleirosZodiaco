@@ -1,58 +1,111 @@
-# X-Men com Tema dos Cavaleiros do Zodíaco
+# X-Men com tema de Cavaleiros do Zodíaco
 
-Bem-vindo ao projeto **X-Men com Tema dos Cavaleiros do Zodíaco**! Este projeto é uma recriação visual que mistura dois universos icônicos da cultura pop: **X-Men** e **Os Cavaleiros do Zodíaco**. O objetivo é recriar uma interface inspirada no menu dos X-Men dos anos 90, mas com o estilo e tema dos Cavaleiros do Zodíaco.
+Uma seleção interativa de personagens inspirada na estética dos menus de jogos dos X-Men dos anos 90 e no universo de **Os Cavaleiros do Zodíaco**. O projeto foi desenvolvido como exercício de front-end e combina uma interface nostálgica com uma navegação simples e responsiva.
 
-## 🎯 Objetivo
+> Projeto demonstrativo para fins de estudo. X-Men e Os Cavaleiros do Zodíaco são marcas de seus respectivos detentores.
 
-O projeto busca combinar duas franquias de sucesso, proporcionando uma experiência visual nostálgica com um toque de criatividade. Ele também serve como um exercício prático de desenvolvimento front-end, utilizando tecnologias web modernas para recriar a interface e efeitos interativos.
+## Demonstração
 
-## 🚀 Funcionalidades
+![Prévia da seleção de personagens](https://github.com/lfbond/projeto_xmen_tema-cavaleirosZodiaco/assets/69223872/82748559-a6b3-4578-aed9-6eb37eaeb52c)
 
-- **Estilo Cavaleiros do Zodíaco**: O visual e as animações dos personagens X-Men são recriados com a estética dos Cavaleiros do Zodíaco.
-- **Efeitos de Hover**: Quando o usuário passa o mouse sobre os personagens, aparecem animações e transições inspiradas nas armaduras e poderes dos Cavaleiros do Zodíaco.
-- **Design Responsivo**: A interface é totalmente responsiva, garantindo uma experiência consistente em dispositivos móveis e desktops.
-- **Animações CSS**: Uso de transições suaves e efeitos visuais para imitar o estilo de luta e poder dos Cavaleiros.
+A versão publicada pode ser acessada pelo [GitHub Pages](https://lfbond.github.io/projeto_xmen_tema-cavaleirosZodiaco/).
 
-## Imagem do Site:
+## Recursos
 
-![Captura de Tela (30)](https://github.com/lfbond/projeto_xmen_tema-cavaleirosZodiaco/assets/69223872/82748559-a6b3-4578-aed9-6eb37eaeb52c)
+- Seleção inicial com Atena em destaque.
+- Lista com 20 personagens e suas respectivas imagens em formato de card.
+- Atualização instantânea da imagem ampliada, do nome e da descrição ao passar o cursor sobre um personagem.
+- Destaque visual do personagem ativo com borda e sombra inspiradas no cosmo.
+- Rolagem na lista de personagens para acomodar todo o elenco.
+- Layout adaptado para desktops, tablets e celulares.
+- No celular, ao selecionar um personagem, a página volta suavemente para a área de detalhes.
 
-## 🛠️ Tecnologias Utilizadas
+## Personagens disponíveis
 
-- **HTML5**: Estruturação da página.
-- **CSS3**: Estilização avançada, efeitos visuais e animações.
-- **JavaScript**: Para manipulação de eventos e interatividade.
-- **GitHub Pages**: Hospedagem do projeto.
+### Bronze
 
-## 📦 Como Executar o Projeto
+Atena, Seiya de Pegasus, Shiryu de Dragão, Hyoga de Cisne, Shun de Andrômeda e Ikki de Fênix.
 
-1. Clone este repositório em sua máquina local:
-    ```bash
-    git clone https://github.com/lfbond/projeto_xmen_tema-cavaleirosZodiaco.git
-    ```
+### Ouro
 
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd projeto_xmen_tema-cavaleirosZodiaco
-    ```
+Mu de Áries, Shion de Áries, Aldebaran de Touro, Saga de Gêmeos, Kanon de Gêmeos, Máscara da Morte de Câncer, Aiolia de Leão, Shaka de Virgem, Dohko de Libra, Milo de Escorpião, Aiolos de Sagitário, Shura de Capricórnio, Camus de Aquário e Afrodite de Peixes.
 
-3. Abra o arquivo `index.html` no seu navegador:
-    ```bash
-    open index.html
-    ```
-    Ou visite o site hospedado diretamente no GitHub Pages: [X-Men com Tema dos Cavaleiros do Zodíaco](https://lfbond.github.io/projeto_xmen_tema-cavaleirosZodiaco/).
+## Tecnologias
 
-## 🎨 Melhorias Futuras
+- **HTML5** para a estrutura semântica da página.
+- **CSS3** para layout, identidade visual, fundo, tipografia e estados de seleção.
+- **JavaScript puro** para os eventos de seleção e atualização dos dados do personagem.
+- **Google Fonts**, com a família Oxanium usada na interface.
+- **GitHub Pages** para publicação.
 
-- **Efeitos de Som**: Adicionar efeitos sonoros inspirados nos Cavaleiros do Zodíaco durante as interações de hover e clique.
-- **Mais Personagens**: Incluir mais personagens dos X-Men e Cavaleiros do Zodíaco, expandindo a lista de heróis e vilões.
-- **Transições entre Temas**: Implementar um botão que permita ao usuário alternar entre o tema dos X-Men e dos Cavaleiros do Zodíaco.
+## Estrutura do projeto
 
-## 💡 Contribuições
+```text
+.
+├── index.html              # Página principal e dados dos personagens
+├── README.md
+└── src/
+    ├── assets/              # Logo, fundo, cards e imagens ampliadas
+    ├── css/
+    │   ├── reset.css        # Reset básico dos estilos
+    │   ├── estilos.css      # Estilos principais da interface
+    │   └── responsivo.css   # Regras para telas menores
+    └── js/
+        └── index.js         # Lógica de seleção e atualização do detalhe
+```
 
-Contribuições são bem-vindas! Se você tem sugestões, encontrou algum bug ou deseja colaborar com novas funcionalidades, abra uma _issue_ ou envie um _pull request_.
+## Como executar localmente
 
-## 📄 Licença
+O projeto não possui dependências ou etapa de compilação. É necessário apenas um navegador.
 
-Este projeto está licenciado sob a MIT License. Para mais detalhes, consulte o arquivo `LICENSE`.
+### Opção 1: abrir diretamente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/lfbond/projeto_xmen_tema-cavaleirosZodiaco.git
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd projeto_xmen_tema-cavaleirosZodiaco
+   ```
+
+3. Abra o arquivo `index.html` no navegador.
+
+### Opção 2: usar um servidor local
+
+Servir a pasta localmente é útil para testar o projeto em diferentes dispositivos. Com o Python instalado, execute:
+
+```bash
+python -m http.server 8000
+```
+
+Depois, acesse <http://localhost:8000> no navegador.
+
+## Como funciona
+
+Cada item da lista possui um `id`, um `data-name` e um `data-description` no `index.html`. O arquivo `src/js/index.js` escuta o evento `mouseenter`, remove a seleção anterior e usa esses dados para atualizar o painel principal. A imagem ampliada é localizada automaticamente em `src/assets/` a partir do `id` do personagem.
+
+Para adicionar um novo personagem:
+
+1. Inclua uma imagem de card seguindo o padrão `card-nome-do-personagem-min.png`.
+2. Inclua a imagem ampliada com o mesmo identificador usado no `id`, por exemplo `nome-do-personagem.png`.
+3. Adicione um novo item `<li class="personagem">` em `index.html` com `id`, `data-name`, `data-description` e a imagem do card.
+
+## Melhorias planejadas
+
+- Adicionar suporte completo à seleção por teclado e a outros recursos de acessibilidade.
+- Incluir efeitos sonoros opcionais nas interações.
+- Criar uma forma de alternar entre diferentes temas visuais.
+- Ampliar o elenco com novos personagens e descrições revisadas.
+
+## Contribuição
+
+Sugestões e correções são bem-vindas. Para contribuir, abra uma issue descrevendo a proposta ou envie um pull request com uma alteração pequena e documentada.
+
+## Licença
+
+Este repositório não contém atualmente um arquivo `LICENSE`. O código e os assets devem ser tratados como material de estudo, respeitando os direitos autorais e as marcas dos personagens representados.
 
